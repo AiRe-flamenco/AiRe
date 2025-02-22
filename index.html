@@ -3,94 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AiRe Mariposa Flamenco Studio</title>
+    <title>Scroll Image Example</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #8B0000;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            font-size: 24px;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #B22222;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-        nav a:hover {
-            background-color: #D2691E;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .gallery div {
-            width: 30%;
-            height: 200px;
-            background-color: #ddd;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #555;
+        .hidden {
+            display: none;
         }
     </style>
 </head>
 <body>
-    <header>AiRe Mariposa Flamenco Studio</header>
-    <nav>
-        <a href="#home">ホーム</a>
-        <a href="#lesson">レッスン情報</a>
-        <a href="#instructor">講師紹介</a>
-        <a href="#gallery">ギャラリー</a>
-        <a href="#contact">お問い合わせ</a>
-    </nav>
-    
-    <div class="container" id="home">
-        <h2>教室の紹介</h2>
-        <p>情熱的なフラメンコを一緒に楽しみませんか？</p>
-    </div>
-    
-    <div class="container" id="lesson">
-        <h2>レッスン情報</h2>
-        <p>クラスの種類、スケジュール、料金について</p>
-    </div>
-    
-    <div class="container" id="instructor">
-        <h2>講師紹介</h2>
-        <p>フラメンコ講師のプロフィール</p>
-    </div>
-    
-    <div class="container" id="gallery">
-        <h2>ギャラリー</h2>
-        <div class="gallery">
-            <img src="images/IMG_8460.jpg" alt="フラメンコダンサー" width="300">
-            <div>写真・動画2</div>
-            <div>写真・動画3</div>
-        </div>
-    </div>
-    
-    <div class="container" id="contact">
-        <h2>お問い合わせ</h2>
-        <p>体験レッスンのお申し込みやお問い合わせはこちら</p>
-    </div>
+    <div style="height: 1000px;">スクロールしてください</div>
+    <img id="scrollImage" class="hidden" src="path/to/your/image.jpg" alt="Scroll Image">
+    <script src="script.js"></script>
 </body>
 </html>
