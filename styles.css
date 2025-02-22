@@ -1,7 +1,7 @@
 /* styles.css */
 @keyframes slideIn {
     from {
-        transform: translateX(-100%);
+        transform: translateX(100%);
         opacity: 0;
     }
     to {
@@ -16,5 +16,5 @@
 
 .show {
     display: block;
-    animation: slideIn 1s ease-out;
+    animation: slideIn 2s ease-out; /* アニメーションの時間を2秒に設定 */
 }
