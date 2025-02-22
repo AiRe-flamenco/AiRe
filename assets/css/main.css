@@ -86,6 +86,11 @@
 		width: 80em;
 	}
 
+	header img {
+    		width: 200px;
+    		height: auto;
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
