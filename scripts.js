@@ -5,3 +5,6 @@ window.addEventListener('scroll', function() {
     var imagePosition = image.offsetTop;
 
     if (scrollPosition >= imagePosition) {
+        image.classList.remove('hidden');
+    }
+});
