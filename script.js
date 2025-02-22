@@ -6,5 +6,6 @@ window.addEventListener('scroll', function() {
 
     if (scrollPosition >= imagePosition) {
         image.classList.remove('hidden');
+        image.classList.add('show');
     }
 });
