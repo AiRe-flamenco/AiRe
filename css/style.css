@@ -116,12 +116,12 @@ header {
 	margin-bottom: -40px; /* 隙間を小さくする */
 }
 
-/*画面幅400px以下の追加指定*/
-@media screen and (max-width:400px) {
+/*画面幅400px以下の追加指定、500以下に変更*/
+@media screen and (max-width:500px) {
 
 	/*ロゴ*/
 	#logo {
-		width: 80px;	/*幅*/
+		width: 50px;	/*幅*/
 		margin-bottom: 30px; /* 隙間を小さくする */
 	}
 
