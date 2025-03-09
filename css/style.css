@@ -172,13 +172,13 @@ header {
 ---------------------------------------------------------------------------*/
 #campaign a {
 	text-decoration: none;display: block;
-	background: linear-gradient(#f1d82e, #c66c02);/*グラデーション*/
-	color: #fff;		/*文字色*/
+	background: linear-gradient(#00ac9a, #00ac9a);/*グラデーション*/
+	color: #000000;		/*文字色*/
 	position: absolute;
 	z-index: 1;
 	right: 1%;			/*右からの配置場所指定*/
 	bottom: 1%;			/*下からの配置場所指定*/
-	font-size: 0.8rem;	/*文字サイズ*/
+	font-size: 1.0rem;	/*文字サイズ*/
 	width: 10em;		/*幅。10文字分。*/
 	line-height: 10em;	/*高さ。10文字分。*/
 	border-radius: 100px;	/*角を丸くする指定。左上、右上、右下、左下の順番。*/
