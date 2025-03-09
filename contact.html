@@ -26,33 +26,6 @@
 <form>
 
 <h2>CONTACT<span>お問い合わせ</span></h2>
-<p>当ページと同じ３項目のお問い合わせフォーム（自動フォーム試用版）を簡単に使えるようにセットしています。<br>
-<span class="color-check">※当ページ（contact.html）はフォームの見本ページです。実際の自動フォームには使いませんのでご注意下さい。</span></p>
-<p><span class="color-check">自動フォームを使う場合（※編集に入る前にご確認下さい）</span><br>
-あなたのメールアドレス設定と、簡単な編集だけで使えます。<a href="https://template-party.com/file/formgen_manual_set2.html" target="_blank">こちらのマニュアルをご覧下さい。</a></p>
-<p><span class="color-check">自動フォームを使わない場合</span><br>
-テンプレートに梱包されている「form.html」「confirm.html」「finish.html」の3枚のファイルを削除して下さい。</p>
-
-<form action="https://formspree.io/f/mwpledpp" method="POST">
-  <table class="ta1">
-    <tr>
-      <th>お名前</th>
-      <td><input type="text" name="お名前" size="30" class="ws" required></td>
-    </tr>
-    <tr>
-      <th>メールアドレス</th>
-      <td><input type="email" name="email" size="30" class="ws" required></td>
-    </tr>
-    <tr>
-      <th>メッセージ</th>
-      <td><textarea name="message" cols="30" rows="5" class="ws" required></textarea></td>
-    </tr>
-  </table>
-  <p class="c">
-    <button type="submit">送信</button>
-  </p>
-</form>
-
 
 <style>
   form {
@@ -72,22 +45,26 @@
     margin-top: 5px; /* 入力フィールドとラベルの間にスペースを追加 */
   }
 
-  button {
-    margin-top: 10px; /* ボタンの上にスペースを追加 */
+    button {
+    display: block;  /* ボタンをブロック要素として表示 */
+    margin: 20px auto;  /* ボタンを中央に配置（上下の余白も追加） */
+    padding: 10px 20px;  /* ボタンの余白を調整 */
+    font-size: 16px;  /* ボタンの文字サイズ */
+    cursor: pointer;  /* ボタンにカーソルを合わせた時の見た目を変更 */
   }
 </style>
 
 <form action="https://formspree.io/f/mwpledpp" method="POST">
   <label>
-    Your name:
+    お名前:
     <input type="text" name="name" required>
   </label>
   <label>
-    Your email:
+    メールアドレス:
     <input type="email" name="email" required>
   </label>
   <label>
-    Your message:
+    メッセージ:
     <textarea name="message" required></textarea>
   </label>
   <button type="submit">Send</button>
