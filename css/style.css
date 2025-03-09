@@ -113,7 +113,7 @@ header {
 #logo {
 	width: 300px;	/*幅*/
 	margin: 0 auto;	/*左右の中央に配置*/
-	margin-bottom: -30px; /* 隙間を小さくする */
+	margin-bottom: -70px; /* 隙間を小さくする */
 }
 
 /*画面幅400px以下の追加指定*/
@@ -122,6 +122,7 @@ header {
 	/*ロゴ*/
 	#logo {
 		width: 80px;	/*幅*/
+		margin-bottom: 30px; /* 隙間を小さくする */
 	}
 
 }/*画面幅400px以下の追加指定ここまで*/
@@ -135,7 +136,7 @@ header {
 	height: 0;
 	padding-top: 66.66%; /* 9÷16=56.25 ,2÷3=66.66 */
 	position: relative;
-	margin-top: -40; /* 必要に応じて調整 */
+	margin-top: 0; /* 必要に応じて調整 */
 }
 #mainimg {
 	position: absolute;
