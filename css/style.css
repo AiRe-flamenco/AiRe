@@ -133,7 +133,7 @@ header {
 #mainimg-box {
 	width: 100%;
 	height: 0;
-	padding-top: 56.25%;
+	padding-top: 66.66%; /* 9÷16=56.25 ,2÷3=66.66 */
 	position: relative;
 	margin-top: -40; /* 必要に応じて調整 */
 }
