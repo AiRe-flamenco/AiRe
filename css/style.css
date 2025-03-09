@@ -121,9 +121,9 @@ header {
 
 	/*ロゴ*/
 	#logo {
-		width: 80px;	/*幅*/
+		width: 120px;	/*幅*/
 		margin-top: 0px; /* 隙間を小さくする */
-		margin-bottom: 30px; /* 隙間を小さくする */
+		margin-bottom: 0px; /* 隙間を小さくする */
 	}
 
 }/*画面幅400px以下の追加指定ここまで*/
