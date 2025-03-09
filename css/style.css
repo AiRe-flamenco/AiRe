@@ -172,7 +172,7 @@ header {
 ---------------------------------------------------------------------------*/
 #campaign a {
 	text-decoration: none;display: block;
-	background: linear-gradient(#00ac9a, #00ac9a);/*グラデーション*/
+	background: linear-gradient(#82cddd, #82cddd);/*グラデーション*/
 	color: #000000;		/*文字色*/
 	position: absolute;
 	z-index: 1;
