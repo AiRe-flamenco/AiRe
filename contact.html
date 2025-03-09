@@ -48,11 +48,11 @@
       <td><textarea name="message" cols="30" rows="5" class="ws" required></textarea></td>
     </tr>
   </table>
-
   <p class="c">
     <button type="submit">送信</button>
   </p>
 </form>
+
 
 
 <!-- modify this form HTML and place wherever you want your form -->
@@ -60,23 +60,20 @@
   action="https://formspree.io/f/mwpledpp"
   method="POST"
 >
-<table class="ta1"> 
-  <tr>
-    <label>
-      <th>お名前</th> 
-      <input type="email" name="email" size="30" class="ws">
-    </label>
-  </tr>
-  <tr>
-    <label>
-      <th>メッセージ</th>
-      <textarea name="message" cols="30" rows="5" class="ws"></textarea>
-    </label>
-  </tr>
+  <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
   <!-- your other form fields go here -->
-  <p class="c">
-    <button type="submit">送信</button>
-  </p>
+  <button type="submit">Send</button>
 </form>
 
 
