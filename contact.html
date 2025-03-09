@@ -55,18 +55,29 @@
 
 
 <style>
+  form {
+    width: 100%; /* フォームの幅を調整（必要に応じて変更） */
+  }
+
   label {
+    display: block; /* labelをブロック要素として表示 */
+    margin-bottom: 10px; /* 各フィールドの間にスペースを追加 */
     font-size: 20px; /* 文字サイズ */
-    font-family: Arial, sans-serif; /* フォント */
-    font-weight: bold; /* 太文字 */
+  }
+
+  input, textarea {
+    display: block; /* 入力フィールドもブロック要素として表示 */
+    width: 100%; /* 入力フィールドの幅を100%にする */
+    padding: 8px; /* 余白を追加 */
+    margin-top: 5px; /* 入力フィールドとラベルの間にスペースを追加 */
+  }
+
+  button {
+    margin-top: 10px; /* ボタンの上にスペースを追加 */
   }
 </style>
-  
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/mwpledpp"
-  method="POST"
->
+
+<form action="https://formspree.io/f/mwpledpp" method="POST">
   <label>
     Your name:
     <input type="text" name="name" required>
@@ -79,7 +90,6 @@
     Your message:
     <textarea name="message" required></textarea>
   </label>
-  <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
 
