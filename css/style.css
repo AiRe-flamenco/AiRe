@@ -106,14 +106,14 @@ a:hover {
 /*ヘッダーブロック*/
 header {
 	padding: 3%;	/*ヘッダー内の余白*/
-	margin-top: 10px; /* 隙間を小さくする */
+	margin-top: -30px; /* 隙間を小さくする */
 }
 
 /*ロゴ*/
 #logo {
 	width: 300px;	/*幅*/
 	margin: 0 auto;	/*左右の中央に配置*/
-	margin-bottom: 10px; /* 隙間を小さくする */
+	margin-bottom: -30px; /* 隙間を小さくする */
 }
 
 /*画面幅400px以下の追加指定*/
@@ -135,7 +135,7 @@ header {
 	height: 0;
 	padding-top: 56.25%;
 	position: relative;
-	margin-top: 0; /* 必要に応じて調整 */
+	margin-top: 20; /* 必要に応じて調整 */
 }
 #mainimg {
 	position: absolute;
