@@ -33,13 +33,24 @@
 <p><span class="color-check">自動フォームを使わない場合</span><br>
 テンプレートに梱包されている「form.html」「confirm.html」「finish.html」の3枚のファイルを削除して下さい。</p>
 
-<form action="https://formspree.io/f/mwpledpp" method="POST">
-  <label>お名前: <input type="text" name="name" required></label><br>
-  <label>メール: <input type="email" name="email" required></label><br>
-  <label>メッセージ: <textarea name="message" required></textarea></label><br>
+<table class="ta1">
+ <tr>
+  <form action="https://formspree.io/f/mwpledpp" method="POST">
+  <th>お名前</th> 
+  <td><input type="text" name="お名前" size="30" class="ws"　size="30" class="ws" required></td>
+ </tr>
+ <tr>
+  <th>メールアドレス</th> 
+  <td><input type="email" name="メールアドレス" required></td>
+ </tr>
+  <th>メッセージ</th> 
+  <td><textarea name="message" required></textarea></td>
   <button type="submit">送信</button>
-</form>
+ </tr>
+</table>
 
+</form>
+  
 <p class="c">
 <input type="submit" value="内容を確認する">
 </p>
