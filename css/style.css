@@ -793,29 +793,51 @@ dt.c {
 
 /*アクセスページの画像を4:3に調整
 ---------------------------------------------------------------------------*/
-/* Google Mapの高さを450pxに設定 */
-.access-map iframe {
-  width: 100%;
-  height: 450px; /* 高さを450pxに設定 */
-  border: 0;
+.access-container {
+  display: flex;
+  flex-wrap: wrap; /* 画面が狭い場合は折り返す */
+  align-items: center;
+  gap: 20px; /* 写真とマップの間隔 */
+  margin-bottom: 40px; /* 各教室の間隔 */
 }
 
-/* 画像の親要素（.access-photo）の高さをGoogle Mapの高さに合わせる */
 .access-photo {
-  width: 100%;
-  height: 450px; /* Google Mapの高さに合わせる */
+  flex: 1;
+  max-width: 40%; /* 写真の最大幅 */
+  height: 400px; /* 高さを指定（Google Mapと一致させる） */
   position: relative;
   overflow: hidden;
 }
 
-/* 画像のアスペクト比を4:3に保つ */
 .access-photo img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 画像を覆うように表示、アスペクト比を保つ */
+  object-fit: cover; /* 画像のアスペクト比を維持しながら、親要素を覆う */
+  border-radius: 10px; /* 角を丸める（お好みで） */
+}
+
+.access-map {
+  flex: 1;
+  max-width: 55%; /* Googleマップの最大幅 */
+}
+
+.access-map iframe {
+  width: 100%;
+  height: 400px; /* マップの高さを統一 */
+  border: 0;
+}
+
+@media (max-width: 768px) { 
+  .access-container {
+    flex-direction: column; /* スマホでは縦並び */
+  }
+
+  .access-photo, .access-map {
+    max-width: 100%; /* 幅をフルに使う */
+  }
 }
 
 
