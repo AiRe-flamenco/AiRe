@@ -804,19 +804,20 @@ dt.c {
 .access-photo {
   flex: 1;
   max-width: 40%; /* 写真の最大幅 */
-  height: 400px; /* 高さを指定（Google Mapと一致させる） */
   position: relative;
-  overflow: hidden;
 }
 
 .access-photo img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 画像のアスペクト比を維持しながら、親要素を覆う */
+  object-fit: cover; /* 画像のトリミングを防ぐ */
   border-radius: 10px; /* 角を丸める（お好みで） */
+}
+
+.access-photo::before {
+  content: "";
+  display: block;
+  padding-bottom: 75%; /* 4:3のアスペクト比（高さ/幅 = 3/4 = 75%） */
 }
 
 .access-map {
@@ -839,7 +840,6 @@ dt.c {
     max-width: 100%; /* 幅をフルに使う */
   }
 }
-
 
 /*その他
 ---------------------------------------------------------------------------*/
