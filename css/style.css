@@ -138,7 +138,6 @@ header {
 	padding-top: 66.66%; /* 9÷16=56.25 ,2÷3=66.66 */
 	position: relative;
 	margin-top: 0; /* 必要に応じて調整 */
-	margin-bottom: -30; /* 必要に応じて調整 */
 }
 #mainimg {
 	position: absolute;
@@ -272,6 +271,7 @@ main h3 {
 /*h4タグ（ホームタイトル用）*/
 main h4 {
 	font-size: 2.0rem;	/*文字サイズ*/
+	margin-top: -30; /* 必要に応じて調整 */
 }
 
 /*微調整*/
