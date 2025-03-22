@@ -200,17 +200,9 @@ header {
 .widget-container {
   display: flex;
   justify-content: center;  /* 水平方向に中央揃え */
-  align-items: center;      /* 垂直方向に中央揃え */
   height: 100vh;           /* 画面の高さいっぱいにする */
 }
 
-.snapwidget-widget {
-  width: 90%; /* 親要素の90%の幅にする */
-  max-width: 800px; /* 最大幅を800pxに設定 */
-  height: auto; /* 高さを400pxに設定 */
-  border: none;
-  overflow: hidden;
-}
 
 /*トップページの「キャンペーン中」ボタン
 ---------------------------------------------------------------------------*/
