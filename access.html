@@ -65,9 +65,7 @@
     .access-photo{
       max-width: 100%; /* 幅をフルに使う */
       width: 100%; /* 親要素の幅に合わせる */
-    　height: 0;
-    　padding-top: 75%; /* 4:3 の縦横比を作る */
-    　position: relative;
+      aspect-ratio: 4 / 3; /* 4:3の比率を設定 */
     　overflow: hidden; /* 画像がはみ出さないように */
     }
 
