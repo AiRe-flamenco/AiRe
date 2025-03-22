@@ -60,13 +60,14 @@
   @media (max-width: 768px) { 
     .access-container {
       flex-direction: column; /* スマホでは縦並び */
+      gap: 10px; /* 画像とマップの間隔を縮める */
     }
 
     .access-photo{
       max-width: 100%; /* 幅をフルに使う */
       width: 100%; /* 親要素の幅に合わせる */
       height: 0;
-      padding-top: 75%; /* 4:3 の縦横比を作る */
+      padding-top: 50%; /* 縦横比を調整 */
     　overflow: hidden; /* 画像がはみ出さないように */
     }
 
