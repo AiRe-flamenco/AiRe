@@ -206,8 +206,8 @@ header {
 
 .snapwidget-widget {
   width: 90%; /* 親要素の90%の幅にする */
-  max-width: 700px; /* 最大幅を700pxに設定 */
-  height: 400px; /* 高さを400pxに設定 */
+  max-width: 800px; /* 最大幅を800pxに設定 */
+  height: auto; /* 高さを400pxに設定 */
   border: none;
   overflow: hidden;
 }
