@@ -202,6 +202,15 @@ header {
   height: 100vh;           /* 画面の高さいっぱいにする */
 }
 
+.snapwidget-widget {
+    border: none; /* 枠線なし */
+    overflow: hidden; /* はみ出した部分を非表示 */
+    width: 60%; /* 幅を60%に設定 */
+    height: auto; /* 高さを自動調整 */
+    allowtransparency: true; /* 背景透過を許可（CSSでは効果なし） */
+    frameborder: 0; /* フレームボーダーをなしに */
+    scrolling: no; /* スクロールバーを無効化 */
+}
 
 /*トップページの「キャンペーン中」ボタン
 ---------------------------------------------------------------------------*/
