@@ -199,11 +199,15 @@ header {
 ---------------------------------------------------------------------------*/
 .widget-container {
   display: flex;
-  justify-content: center; /* 中央表示 */
-  align-items: center;
-  width: 100%;
-  max-width: 500px; /* 最大幅を500pxに設定 */
-  height: 300px; /* 高さは固定 */
+  justify-content: center;  /* 水平方向に中央揃え */
+  align-items: center;      /* 垂直方向に中央揃え */
+  height: 100vh;           /* 画面の高さいっぱいにする */
+}
+
+.snapwidget-widget {
+  width: 90%; /* 親要素の90%の幅にする */
+  max-width: 700px; /* 最大幅を700pxに設定 */
+  height: 400px; /* 高さを400pxに設定 */
   border: none;
   overflow: hidden;
 }
