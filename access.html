@@ -65,7 +65,8 @@
     .access-photo{
       max-width: 100%; /* 幅をフルに使う */
       width: 100%; /* 親要素の幅に合わせる */
-      aspect-ratio: 4 / 3; /* 4:3の比率を設定 */
+      height: 0;
+      padding-top: 75%; /* 4:3 の縦横比を作る */
     　overflow: hidden; /* 画像がはみ出さないように */
     }
 
@@ -74,7 +75,7 @@
     　top: 0;
     　left: 0;
     　width: 100%; /* 幅を100%にして画像を横に広げる */
-    　height: 100%; /* 高さを100%にして画像を縦に広げる */
+    　height: 75%; /* 高さを100%にして画像を縦に広げる */
     　object-fit: cover; /* 画像をトリミングして比率を保つ */
     　object-position: center; /* 画像を中央に配置 */
     　border-radius: 10px; /* 角を丸める（お好みで） */
