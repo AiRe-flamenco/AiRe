@@ -234,6 +234,11 @@ main h3 {
 	font-size: 1.3rem;	/*文字サイズ*/
 }
 
+/*h4タグ（アクセスページ用）*/
+main h3 {
+	font-size: 2.0rem;	/*文字サイズ*/
+}
+
 /*微調整*/
 p + h3,p + h2 {margin-top: 2em;}
 
