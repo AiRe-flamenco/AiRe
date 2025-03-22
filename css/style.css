@@ -271,7 +271,7 @@ main h3 {
 /*h4タグ（ホームタイトル用）*/
 main h4 {
 	font-size: 2.0rem;	/*文字サイズ*/
-	margin-bottom: -30; /* 必要に応じて調整 */
+	margin-top: -100; /* 必要に応じて調整 */
 }
 
 /*微調整*/
