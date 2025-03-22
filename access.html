@@ -62,14 +62,31 @@
       flex-direction: column; /* スマホでは縦並び */
     }
 
-    .access-photo, .access-map {
+    .access-photo{
       max-width: 100%; /* 幅をフルに使う */
+      width: 100%; /* 親要素の幅に合わせる */
+    　height: 0;
+    　padding-top: 75%; /* 4:3 の縦横比を作る */
+    　position: relative;
+    　overflow: hidden; /* 画像がはみ出さないように */
+    }
+
+    .access-photo img {
+    　position: absolute;
+    　top: 0;
+    　left: 0;
+    　width: 100%; /* 幅を100%にして画像を横に広げる */
+    　height: 100%; /* 高さを100%にして画像を縦に広げる */
+    　object-fit: cover; /* 画像をトリミングして比率を保つ */
+    　object-position: center; /* 画像を中央に配置 */
+    　border-radius: 10px; /* 角を丸める（お好みで） */
     }
     
     .access-map {
-    /* ここで特にmapの横幅を調整 */
-    width: 100%; /* Google Mapの横幅を100%に */
-    height: 400px; /* 必要に応じて高さを調整 */
+      /* ここで特にmapの横幅を調整 */
+      max-width: 100%; /* 幅をフルに使う */
+      width: 100%; /* Google Mapの横幅を100%に */
+      height: 400px; /* 必要に応じて高さを調整 */
     }
   }
 
