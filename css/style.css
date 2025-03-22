@@ -789,7 +789,7 @@ footer a {text-decoration: none;}
 .color-check, .color-check a {color: #ffc500 !important;}
 .color-theme, .color-theme a {color: #eacd6a !important;}
 .c {text-align: center !important;}
-.left {text-align: left;}/*アクセスで左揃えにするために使用*/
+.c_left {text-align: left;}/*アクセスで左揃えにするために使用*/
 .r {text-align: right !important;}
 .ws {width: 95%;display: block;}
 .wl {width: 95%;display: block;}
