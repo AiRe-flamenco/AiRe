@@ -795,7 +795,7 @@ footer a {text-decoration: none;}
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
-.color-check, .color-check a {color: #ffc500 !important;}
+.color-check, .color-check a {color: #82cddd !important;}
 .color-theme, .color-theme a {color: #eacd6a !important;}
 .c {text-align: center !important;}
 .c-left {text-align: left;}/*アクセスで左揃えにするために使用*/
