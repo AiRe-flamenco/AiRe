@@ -768,7 +768,7 @@ dt.c {
   font-size: 1.5rem; /* 文字サイズを大きくする */
   font-weight: bold; /* 太字にする（オプション） */
   margin-bottom: 10px; /* 下の要素との間隔を調整 */
-　text-align: left; /* 左揃えにする */
+  text-align: left; /* 左揃えにする */
 }
 
 /* スマホ用（小さめに調整） */
