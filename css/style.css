@@ -212,7 +212,7 @@ header {
 
 .insta-image {
   width: 100%;
-  height: 95%;
+  height: 99%;
   object-fit: cover; /* 画像をトリミングして枠にフィットさせる */
   display: block;
 }
