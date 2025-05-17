@@ -198,17 +198,23 @@ header {
 ---------------------------------------------------------------------------*/
 .widget-container {
   display: flex;
-  align-items: center;      /* 高さを揃える */
-  justify-content: right;  /* 水平方向に右揃え */
-  gap: 10px;   	
+  justify-content: space-between;
+  align-items: stretch; /* 高さを揃える */
+  width: 100%;
+  gap: 10px; /* 画像とwidgetの隙間 */	
   padding-bottom: 0;
 }
 
-.insta-logo {
-  height: 100%;             /* 親要素に合わせて拡大 */
-  max-height: 500px;        /* ウィジェットの高さに合わせる */
-  width: auto;              /* 縦横比を維持 */
-  object-fit: contain;      /* ロゴが潰れないように */
+.insta-image-wrapper {
+  flex: 1; /* 横幅を自動で広げる */
+  overflow: hidden;
+}
+
+.insta-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 画像をトリミングして枠にフィットさせる */
+  display: block;
 }
 
 .snapwidget-widget {
