@@ -199,7 +199,8 @@ header {
 .widget-container {
   display: flex;
   justify-content: right;  /* 水平方向に右揃え */
-  height: 100vh;           /* 画面の高さいっぱいにする */
+  height: auto;           /* 画面の高さいっぱいにする */
+  padding-bottom: 0;
 }
 
 .snapwidget-widget {
