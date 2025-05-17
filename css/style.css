@@ -198,7 +198,7 @@ header {
 ---------------------------------------------------------------------------*/
 .widget-container {
   display: flex;
-  justify-content: center;  /* 水平方向に右揃え */
+  justify-content: right;  /* 水平方向に右揃え */
   height: 100vh;           /* 画面の高さいっぱいにする */
 }
 
