@@ -180,13 +180,15 @@ header {
 
   .video-wrapper {
     width: 100%;
-    padding-top: 56.25%; /* 16:9比率 */
+    aspect-ratio: 16 / 9;  /* これだけでOK */
+    position: relative;    /* 維持 */
+    padding-top: 0;        /* これをリセット */
   }
 }
 
 .list-slide {
-  margin-bottom: 0; /* スライドショーの下の余白をなくす */
-  padding-bottom: 0; /* もし padding も影響していたら削減 */
+  margin: 0; /* スライドショーの下の余白をなくす */
+  padding: 0; /* もし padding も影響していたら削減 */
 }
 
 #video-container {
@@ -212,7 +214,7 @@ header {
 
 .insta-image {
   width: 100%;
-  height: 99%;
+  height: 99.2%;
   object-fit: cover; /* 画像をトリミングして枠にフィットさせる */
   display: block;
 }
