@@ -200,7 +200,15 @@ header {
   display: flex;
   justify-content: right;  /* 水平方向に右揃え */
   height: auto;           /* 画面の高さいっぱいにする */
+  gap: 10px;   	
   padding-bottom: 0;
+}
+
+.insta-logo {
+  height: 100%;             /* 親要素に合わせて拡大 */
+  max-height: auto;        /* ウィジェットの高さに合わせる */
+  width: auto;              /* 縦横比を維持 */
+  object-fit: contain;      /* ロゴが潰れないように */
 }
 
 .snapwidget-widget {
