@@ -112,8 +112,8 @@ header {
 #logo {
 	width: 300px;	/*幅*/
 	margin: 0 auto;	/*左右の中央に配置*/
-	margin-top: -50px; /* 隙間を小さくする */
-	margin-bottom: -40px; /* 隙間を小さくする */
+	margin-top: 0; /* 隙間を小さくする */
+	margin-bottom: 0px; /* 隙間を小さくする */
 }
 
 /*画面幅400px以下の追加指定、500以下に変更*/
