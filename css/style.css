@@ -219,7 +219,7 @@ header {
   display: block;
 }
 
-.insta-widget-wrapper {
+.lightwidget-widget {
     border: none; /* 枠線なし */
     overflow: hidden; /* はみ出した部分を非表示 */
     width: 60%; /* 幅を60%に設定 */
